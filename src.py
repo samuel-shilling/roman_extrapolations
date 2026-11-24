@@ -40,11 +40,7 @@ def tqdm_plain(*args, **kwargs):
 tqdm.auto.tqdm = tqdm_plain 
 mpl.rcParams.update(mpl.rcParamsDefault) #fix a LaTeX bug with matplotlib in redback
 mpl.rcParams['text.usetex'] = False
-#runfile('/Users/sam/Documents/Project_xray/Updated/x_ray_functions_updated.py')
-file_path_inputs = ('/Users/sam/Documents/Project_lc_modeling/Inputs/')
-file_path_outputs=('/Users/sam/Documents/Project_lc_modeling/Outputs/Automation/')
-file_path_fits='/Users/sam/Documents/Project_lc_modeling/Outputs/Automation/Fits/'
-paper_figures_outputs='/Users/sam/Documents/Project_lc_modeling/Paper_figures/'
+
 
 #######This boolean controls whether we want to sample or not
 sample=False
