@@ -21,8 +21,8 @@ conda env create -f environment.yml
 conda activate venv_first
 ```
 
-## 3. Run the code in terminal (can also be done in a jupyter notebook)
+## 3. Run the 260924A demo code in terminal (can also be done in a jupyter notebook)
 
 ```bash
-python src.py
+python 260924A_roman/src.py
 ```
